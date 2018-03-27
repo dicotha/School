@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>School</title>
+	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/sidebar.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts/BloggerSans/BloggerSans-Light.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+	<!-- Add the slick-theme.css if you want default styling -->
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+	<!-- Add the slick-theme.css if you want default styling -->
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+	
+</head>
+<body>
+	<!-- sidebar -->
+	<div id="mySidenav" class="sidenav">
+	  <div class="row">
+	  	<img class="imguser" src="img/male-user.png">
+	  </div>
+	  <div class="row">
+	  	<form class="col-9 form-login">
+	  		<div class="form-group">
+			    <label for="exampleFormControlInput1">User Name</label>
+			    <input type="text" class="form-control" id="exampleFormControlInput1">
+		  	</div>
+		  	<div class="form-group">
+			    <label for="exampleFormControlInput1">Password</label>
+			    <input type="password" class="form-control" id="exampleFormControlInput1">
+		  	</div>
+	  	</form>
+	  </div>
+	  <div class="social">
+	  	<div class="container">
+		  	<div class="row">
+		  		<div class="col">
+		  			<img src="img/if_social-instagram_206864.png">
+		  		</div>
+		  		<div class="col">
+		  			<img src="img/if_social-twitter_206862.png">
+		  		</div>
+		  		<div class="col">
+		  			<img src="img/if_social-facebook_206867.png">
+		  		</div>
+		  	</div>
+	  	</div>
+	  </div>
+	</div>
+	<!-- end sidebar -->
+
+	<!-- main menu -->
+	<header>
+		<nav class="navbar navbar-expand-lg  bg-topSchool justify-content-between fixed-top">
+		  <a class="navbar-brand navbar-brand-School" href="#">School</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+		    <div class="navbar-nav menu-school">
+		      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+		      <a class="nav-item nav-link" href="#">Blog</a>
+		      <a class="nav-item nav-link" href="#">Classes</a>
+		      <a class="nav-item nav-link" href="#">Location</a>
+		      <a class="nav-item nav-link" href="#">About</a>
+		      <a class="nav-item nav-link" href="#" onclick="openNav()"><img src="img/login-square-arrow-button-outline.png"></a>
+		    </div>
+		  </div>
+		</nav>
+	</header>
+	<!-- end menu -->
+
+
+
+
+
+
+	<!-- content main -->
+	<main>
+		<!-- banner  -->
+		<div class="bigschool ">
+			<img class="img-fluid" src="img/banner.png"/>
+		</div>
+		<!-- end banner -->
+
+		<!-- blog -->
+		<div class=" container-fluid postBlog">
+			<div class="row">
+				<div class="title col ">
+					Blog
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3" style="padding-top: 15px">
+					<img class="img-fluid" src="img/square1.png">
+					<div class="titlePost">
+						Post Exemplo 1
+					</div>
+					<div class="resumePost float-left">
+						Lorem ipsum dolor sit 
+						amet, consectetur adip 
+					</div>
+					<div class="btnView float-right">
+						<img src="img/view.png" style="width: 100px;">
+					</div>
+				</div>
+				<div class="col-md-3" style="padding-top: 15px">
+					<img class="img-fluid" src="img/square2.png">
+					<div class="titlePost">
+						Post Exemplo 2
+					</div>
+					<div class="resumePost float-left">
+						Lorem ipsum dolor sit 
+						amet, consectetur adip 
+					</div>
+					<div class="btnView float-right">
+						<img src="img/view.png" style="width: 100px;">
+					</div>
+				</div>
+				<div class="col-md-3" style="padding-top: 15px">
+					<img class="img-fluid" src="img/square3.png">
+					<div class="titlePost">
+						Post Exemplo 3
+					</div>
+					<div class="resumePost float-left">
+						Lorem ipsum dolor sit 
+						amet, consectetur adip 
+					</div>
+					<div class="btnView float-right">
+						<img src="img/view.png" style="width: 100px;">
+					</div>
+				</div>
+				<div class="col-md-3" style="padding-top: 15px">
+					<img class="img-fluid" src="img/square4.png">
+					<div class="titlePost">
+						Post Exemplo 4
+					</div>
+					<div class="resumePost float-left">
+						Lorem ipsum dolor sit 
+						amet, consectetur adip 
+					</div>
+					<div class="btnView float-right">
+						<img src="img/view.png" style="width: 100px;">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end blog -->
+
+		<!-- CLASS -->
+		<div class="container-fluid space">
+			<div class="row">
+				<div class="col title">
+					Classes
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 textClass">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde 
+					<br><br>
+					omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione vo
+					<br><br>
+					luptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+					<br><br>
+					omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione vo
+					<br><br>
+					luptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+				</div>
+				<div class="col-md-6">
+					<img src="img/img_book.png" class="img-fluid img_book"/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 classBannerbt">
+					<img src="img/bannerLeft.png" class="img-fluid"/>
+				</div>
+				<div class="col-md-6 classBannerbt">
+					<img src="img/bannerRight.png" class="img-fluid"/>
+				</div>
+			</div>
+		</div>
+		<!-- END -->
+
+
+		<!-- Location -->
+		<div class="container-fluid space">
+			<div class="row">
+				<div class="col title">
+					Locations
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col subtitle">Map</div>
+					</div>
+					<div class="row">
+						<div class="col">
+							<div class="maps">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27427.371798044587!2d-79.37934478018393!3d43.73242104706565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cd49ae43a5c7%3A0xbe559bf252ff58fe!2s4-28+High+Point+Rd%2C+North+York%2C+ON+M3B+2A4%2C+Canad%C3%A1!5e0!3m2!1spt-BR!2sbr!4v1522153579157" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col">
+							<div class="infoMap">
+								Lorem ipsum dolor sit amet, 
+								<br><br>
+								Ion ullamco laboris nisi ut aliquip<br>
+								ex ea commodo consequat. Duis aute
+								<br><br>
+								Phone: <span>00 (00) 000000-0000</span><br>
+									   <span style="margin-left: 51px;">00 (00) 000000-0000</span>
+							</div>		
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col subtitle">Photos from our school</div>
+					</div>
+					<div id="slide" data-slick='{"slidesToShow": 1, "slidesToScroll": 1}' class="row">
+						<div class="container">
+							<div class="" style="display: inline-flex;">
+								<div class="" style="max-width: 165px;margin-right:  15px;margin-bottom:  15px;    margin-left: 15px;">
+									<img src="img/slide1.png" class="img-fluid" />
+								</div>
+								<div class="" style="max-width: 165px;margin-right:  15px;margin-bottom:  15px;    ">
+									<img src="img/slide2.png" class="img-fluid" />
+								</div>
+							</div>
+							<div class="" style="display: inline-flex;">
+								<div class="" style="max-width: 165px;margin-right:  15px;margin-bottom:  15px;    margin-left: 15px;">
+									<img src="img/slide3.png" class="img-fluid" />
+								</div>
+								<div class="" style="max-width: 165px;margin-right:  15px;margin-bottom:  15px;    ">
+									<img src="img/slide4.png" class="img-fluid" />
+								</div>
+							</div>
+						</div>
+						<div class="container">
+							<div class="" style="display: inline-flex;">
+								<div class="" style="max-width: 165px;margin-right:  15px;margin-bottom:  15px;    margin-left: 15px;">
+									<img src="img/slide1.png" class="img-fluid" />
+								</div>
+								<div class="" style="max-width: 165px;margin-right:  15px;margin-bottom:  15px; ">
+									<img src="img/slide2.png" class="img-fluid" />
+								</div>
+							</div>
+							<div class="" style="display: inline-flex;">
+								<div class="" style="max-width: 165px;margin-right:  15px;margin-bottom:  15px;    margin-left: 15px;">
+									<img src="img/slide3.png" class="img-fluid" />
+								</div>
+								<div class="" style="max-width: 165px;margin-right:  15px;margin-bottom:  15px; ">
+									<img src="img/slide4.png" class="img-fluid" />
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Location -->
+
+	</main>
+	<!-- end main -->
+
+	<!-- start footer -->
+	<footer>
+		
+	</footer>
+	<!-- end footer -->
+
+	<!-- start scripts -->
+	<script src="node_modules/jquery/dist/jquery.js"></script>
+	<script src="node_modules/popper.js/dist/umd/popper.js"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+
+	<script type="text/javascript">
+		/* Set the width of the side navigation to 250px */
+		function openNav() {
+		    document.getElementById("mySidenav").style.width = "300px";
+		}
+		$(document).mouseup(function(e) 
+		{
+		    var container = $("#mySidenav");
+
+		    // if the target of the click isn't the container nor a descendant of the container
+		    if (!container.is(e.target) && container.has(e.target).length === 0) 
+		    {
+		        document.getElementById("mySidenav").style.width = "0";
+		    }
+		});
+
+
+
+
+
+		$('#slide').slick({
+		  dots: true,
+		  speed: 500,
+		  respondTo: 'min',
+		  nextArrow:'<img src="img/arrowright.png" class="arrowright"/>',
+		  prevArrow: '<img src="img/arrowleft.png" class="arrowleft"/>',
+		  dotsClass : 'dot'
+		});
+</script>
+	<!-- end -->
+</body>
+</html>
